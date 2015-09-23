@@ -6,6 +6,7 @@ namespace CSharp.Training.Tests
     public class FibonacciTests
     {
         Fibonacci fibo = new Fibonacci();
+
         [TestCase(6)]
         public void Fib6(int n)
         {
