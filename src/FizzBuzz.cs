@@ -31,6 +31,7 @@ namespace CSharp.Training
             {
                 result = "Nope";
             }
+            Console.WriteLine(result);
             return result;
         }
     }
