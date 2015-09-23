@@ -2,6 +2,7 @@
 using System;
 namespace CSharp.Training.Tests
 {
+   [TestFixture]
     public class PalindromeTest
     {
         Palindrome Pali = new Palindrome();
