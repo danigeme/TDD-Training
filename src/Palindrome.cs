@@ -1,6 +1,9 @@
-﻿namespace CSharp.Training
+﻿using NUnit.Framework;
+using System;
+namespace CSharp.Training
 {
-    public static class Palindrome
+    public class Palindrome
     {
+       
     }
 }
