@@ -3,7 +3,7 @@ namespace CSharp.Training
 {
     public class Fibonacci
     {
-        public string sequence(int Nth)
+        public double sequence(int Nth)
         {
             double prev = 0;
             double next = 1;
@@ -19,10 +19,10 @@ namespace CSharp.Training
                 limit += 1;
             }
             Console.WriteLine(msj);
-            return msj;
+            return fib;
         }
         
-        public string Nsequence(int Nth)
+        public double Nsequence(int Nth)
         {
             double prev = 0;
             double next = -1;
@@ -38,7 +38,7 @@ namespace CSharp.Training
                 limit -= 1;
             }
             Console.WriteLine(msj);
-            return msj;
+            return fib;
         }
 
     }

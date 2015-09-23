@@ -7,31 +7,21 @@ namespace CSharp.Training.Tests
     {
         Fibonacci fibo = new Fibonacci();
 
-        [TestCase(6)]
-        public void Fib6(int n)
+        [TestCase]
+        public void Fib()
         {
-            Assert.AreEqual(fibo.sequence(n), "0 1 1 2 3 5", "Incorrect");
+            Assert.AreEqual(fibo.sequence(6), 5, "Incorrect");
+            Assert.AreEqual(fibo.sequence(10), 34, "Incorrect");
         }
 
-        [TestCase(10)]
-        public void Fib10(int n)
+        [TestCase]
+        public void FibN()
         {
-            Assert.AreEqual(fibo.sequence(n), "0 1 1 2 3 5 8 13 21 34", "Incorrect");
+            Assert.AreEqual(fibo.Nsequence(-6), -5, "Incorrect");
+            Assert.AreEqual(fibo.Nsequence(-10), -34, "Incorrect");
         }
 
-        [TestCase(-6)]
-        public void FibN6(int n)
-        {
-            Assert.AreEqual(fibo.Nsequence(n), "0 -1 -1 -2 -3 -5", "Incorrect");
-        }
-
-        [TestCase(-10)]
-        public void FibN10(int n)
-        {
-            Assert.AreEqual(fibo.Nsequence(n), "0 -1 -1 -2 -3 -5 -8 -13 -21 -34", "Incorrect");
-        }
-
-
+   
    
 
         
