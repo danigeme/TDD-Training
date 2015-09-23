@@ -2,6 +2,7 @@
 using System;
 namespace CSharp.Training.Tests
 {
+     [TestFixture]
     public class FibonacciTests
     {
         Fibonacci fibo = new Fibonacci();
