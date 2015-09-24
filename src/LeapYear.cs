@@ -22,7 +22,28 @@ namespace CSharp.Training
 
     }
 
-        
+    public static class ExtensionMethodLeapYear
+    {
+        public static string isLeapYear(this int year)
+        {
+            string msj = "";
+            if (year % 4 == 0)
+            {
+                if (year % 100 == 0)
+                {
+                    if (year % 400 == 0)
+                    {
+                        msj = year + " is a leap year";
+                    }
+                    else { msj = year + " is not a leap year"; }
+                }
+                else { msj = year + " is a leap year"; }
+            }
+            else { msj = year + " is not a leap year"; }
+            return msj;
+        }
+    
+    }
 
   
 
