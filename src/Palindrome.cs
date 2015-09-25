@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+
 using System;
 namespace CSharp.Training
 {
