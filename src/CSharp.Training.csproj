@@ -60,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CannonicalComparer.cs" />
-    <Compile Include="ExtensionMethod.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="ISortAlgorithm.cs" />
